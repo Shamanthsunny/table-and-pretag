@@ -1,6 +1,4 @@
 table {
-    background: "S:\FSD\demos\HTML\ipl.jpeg";
-    
     width: 100%;
     height: 100%;
 }
@@ -12,3 +10,15 @@ td, th {
 th {
     background-color: red;
 }
+tr:nth-child(odd) {
+    background-color: #D6EEEE;
+}
+pre {
+    background-color: rgb(20, 33, 150);
+    padding: 10px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    color: white;
+}
+
